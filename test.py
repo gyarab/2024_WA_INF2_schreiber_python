@@ -1,6 +1,6 @@
 def fibonacci(n):
-    if not isinstance(n, int):
-        raise ValueError("n must be an integer") or n < 0
+    if not isinstance(n, int) or n < 0:
+        raise ValueError("n must be an integer")
     if n == 0:
         return 0
     elif n == 1:
