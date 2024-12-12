@@ -9,7 +9,7 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
     
 def is_prime(number) -> bool:
-    if not isinstance(number, int) or number < 0:
+    if not isinstance(number, int) or number =< 0:
         raise ValueError("number must be a non-negative integer")
     if number < 2:
         return False
