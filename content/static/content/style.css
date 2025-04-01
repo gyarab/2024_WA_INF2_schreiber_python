@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.title-box {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+hr {
+    border: 1px solid #aaa;
+    margin: 20px 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.btn {
+    background-color: #ddd;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+.article {
+    display: flex;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.article-image {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #666;
+}
+.article-content {
+    word-wrap: break-word;  /* Ensures long words break */
+    overflow-wrap: break-word; /* Helps break words to prevent overflow */
+    white-space: normal; /* Allows text to wrap normally */
+    max-width: 100%; /* Ensures it doesn't overflow */
+}
+
+.article-content h2 {
+    margin: 0 0 10px 0;
+}
+.article-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.article:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #bbb;
+    transition: background-color 0.2s;
+}

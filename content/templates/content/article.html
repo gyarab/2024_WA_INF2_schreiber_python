@@ -1,0 +1,44 @@
+{% extends "content/base.html" %}
+
+
+{% block header %}
+    <div class="title-box">
+        <h1>Minecraft Mobs</h1>
+    </div>
+    <hr>
+    <nav>
+        <span>NATURE:</span>
+        {% for nature in natures %}
+            <a href="/nature/{{ nature.pk }}/" class="btn">
+                {{ nature.name }}
+            </a>
+        {% endfor %}
+        <span>DIMENSION:</span>
+        {% for dimension in dimensions %}
+            <a href="/dimension/{{ dimension.pk }}/" class="btn">{{ dimension.name }}</a>
+        {% endfor %}
+    </nav>
+    <hr>
+{% endblock %}
+
+{% block main %}
+    <div class="article-container">
+        <div class="article-image">
+            <img src="{{ article.img_url }}" alt="{{ article.title }}">
+        </div>
+        <div class="article-info">
+            <h1>{{ article.title }}</h1>
+            <p>{{ article.content }}</p>
+            <div class="article-meta">
+                <p><strong>Nature:</strong> {{ article.nature }}</p>
+                <p><strong>Dimension:</strong> {{ article.dimension }}</p>
+                <p><strong>Version:</strong> {{ article.version }}</p>
+                <p><strong>Health:</strong> {{ article.health }}</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="return-home">
+        <a href="/" class="btn">Return Home</a>
+    </div>
+{% endblock %}

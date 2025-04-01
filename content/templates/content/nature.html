@@ -1,0 +1,47 @@
+{% extends "content/base.html" %}
+
+{% block header %}
+    <div class="title-box">
+        <h1>Minecraft Mobs</h1>
+    </div>
+    <hr>
+    
+    <nav>
+        <a href="/" class="btn">Return Home</a>
+        <span>NATURE:</span>
+        {% for nature in natures %}
+            <a href="/nature/{{ nature.pk }}/" class="btn">
+                {{ nature.name }}
+            </a>
+        {% endfor %}
+        <span>DIMENSION:</span>
+        {% for dimension in dimensions %}
+            <a href="/dimension/{{ dimension.pk }}/" class="btn">{{ dimension.name }}</a>
+        {% endfor %}
+    </nav>
+    <hr>
+{% endblock %}
+
+{% block main %}
+    <div><h1>{{ nature.name }}</h1></div>
+    {% for article in nature.articles.all %}
+        <a href="/article/{{ article.pk }}/" class="article-link">
+            <section class="article">
+                <div class="article-image">
+                    {% if article.img_url %}
+                        <img src="{{ article.img_url }}" alt="{{ article.title }}" style="width:100%; height:100%; object-fit: cover;">
+                    {% else %}
+                        <div class="placeholder">IMG</div>
+                    {% endif %}
+                </div>
+                <div class="article-content">
+                    <h2>{{ article.title }}</h2>
+                    <p><strong>Nature:</strong> {{ article.nature.name }}</p>
+                    <p><strong>Dimension:</strong> {{ article.dimension.name }}</p>
+                    <p><strong>Version:</strong> {{ article.version }}</p>
+                    <p><strong>Health:</strong> {{ article.health }}</p>
+                </div>
+            </section>
+        </a>
+    {% endfor %}
+{% endblock %}

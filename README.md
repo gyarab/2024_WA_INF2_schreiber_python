@@ -1,8 +1,4 @@
-# 2024_WA_INF2_schreiber_python
-
-tady budu davat svoje ukoly z WA 
+# Django pískoviště
 
 
-
-Pac a pusu, 
-JAN SCHREIBER
+Repozitář pro práci v hodině v hodinách WA, skupina INF2

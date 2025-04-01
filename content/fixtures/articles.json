@@ -1,0 +1,195 @@
+[
+    {
+        "model": "content.dimension",
+        "pk": 1,
+        "fields": {
+            "name": "overworld",
+            "description": "The main dimension of the game, where players spawn and explore."
+        }
+    },
+    {
+        "model": "content.dimension",
+        "pk": 2,
+        "fields": {
+            "name": "nether",
+            "description": "The fiery underworld dimension, home to dangerous mobs and unique resources."
+        }
+    },
+    {
+        "model": "content.dimension",
+        "pk": 3,
+        "fields": {
+            "name": "end",
+            "description": "The mysterious dimension where the Ender Dragon resides and the final boss fight takes place."
+        }
+    },
+    {
+        "model": "content.nature",
+        "pk": 1,
+        "fields": {
+            "name": "Passive",
+            "description": "A nature of mob that does not attack players and can be bred."
+        }
+    },
+    {
+        "model": "content.nature",
+        "pk": 2,
+        "fields": {
+            "name": "Neutral",
+            "description": "A nature of mob that does not attack players unless provoked."
+        }
+    },
+    {
+        "model": "content.nature",
+        "pk": 3,
+        "fields": {
+            "name": "Hostile",
+            "description": "A nature of mob that attacks players on sight ."
+
+        }
+    },
+    {
+        "model": "content.article",
+        "pk": 1,
+        "fields": {
+            "title": "Chicken",
+            "content": "A Minecraft chicken is a small, passive mob that roams the Overworld. It drops feathers, raw chicken, and eggs, which can be used for crafting and farming. Chickens can be bred with seeds and will follow players holding them. They also have a unique ability to glide slowly when falling, making them immune to fall damage. Often found wandering in grassy biomes, chickens are a great early-game source of food and materials! ",
+            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Chicken_JE2_BE2.png",
+            "health": 4,
+            "version": "1.0",
+            "dimension": 1,
+            "nature": 1
+
+        }
+    },
+    {
+        "model": "content.article",
+        "pk": 2,
+        "fields": {
+            "title": "Allay",
+            "content": "The Allay is a passive flying mob that helps players by collecting and delivering items similar to what it holds. Found in pillager outposts and woodland mansions, it can be freed and will follow players who give it an item.",
+            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Allay_JE1_BE1.png",
+            "health": 20,
+            "version": "1.19",
+            "dimension": 1,
+            "nature": 1
+        }
+    },
+    {
+        "model": "content.article",
+        "pk": 3,
+        "fields": {
+            "title": "Bee",
+            "content": "Bees are passive flying mobs that pollinate flowers and produce honey. Found in beehives and nests, they play an essential role in crop growth and honey farming.",
+            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Bee_with_nectar.png",
+            "health": 10,
+            "version": "1.15",
+            "dimension": 1,
+            "nature": 1
+        }
+    },
+    {
+        "model": "content.article",
+        "pk": 4,
+        "fields": {
+            "title": "Panda",
+            "content": "Pandas are neutral mobs found in bamboo jungles. They have various personalities affecting their behavior and can be bred using bamboo.",
+            "img_url": "https://minecraft.fandom.com/wiki/Panda?file=Aggressive_Panda_JE1_BE2.png",
+            "health": 20,
+            "version": "1.14",
+            "dimension": 1,
+            "nature": 2
+        }
+    },
+    {
+        "model": "content.article",
+        "pk": 5,
+        "fields": {
+            "title": "Rabbit",
+            "content": "Rabbits are small passive mobs found in grassy and snowy biomes. They can be bred with carrots and drop rabbit hides and meat.",
+            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Black_%26_White_Rabbit_JE3_BE2.png",
+            "health": 3,
+            "version": "1.8",
+            "dimension": 1,
+            "nature": 1
+        }
+    },
+    {
+        "model": "content.article",
+        "pk": 6,
+        "fields": {
+            "title": "Guardian",
+            "content": "Guardians are hostile underwater mobs that protect ocean monuments. They attack using lasers and drop prismarine shards.",
+            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Guardian_JE1_BE1.png",
+            "health": 30,
+            "version": "1.8",
+            "dimension": 1,
+            "nature": 3
+        }
+    },
+    {
+        "model": "content.article",
+        "pk": 7,
+        "fields": {
+            "title": "Ender Dragon",
+            "content": "The Ender Dragon is the final boss in Minecraft, found in the End dimension. It has a massive health pool and must be defeated to access the End Gateway.",
+            "img_url":"https://minecraft.fandom.com/wiki/Category:Mob_images?file=Ender_Dragon.png",
+            "health": 200,
+            "version": "1.0",
+            "dimension": 3,
+            "nature": 3
+        }
+    },
+    {
+        "model": "content.article",
+        "pk": 8,
+        "fields": {
+            "title": "Enderman",
+            "content": "Endermen are neutral mobs that teleport and become hostile if looked at. They spawn in all dimensions and drop ender pearls.",
+            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Enderman.png",
+            "health": 40,
+            "version": "1.0",
+            "dimension": 3,
+            "nature": 2
+        }
+    },
+    {
+        "model": "content.article",
+        "pk": 9,
+        "fields": {
+            "title": "Endermite",
+            "content": "Endermites are small hostile mobs that sometimes spawn when an ender pearl is used. They are disliked by Endermen.",
+            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Endermite.png",
+            "health": 8,
+            "version": "1.8",
+            "dimension": 3,
+            "nature": 3
+        }
+    },
+    {
+        "model": "content.article",
+        "pk": 10,
+        "fields": {
+            "title": "Piglin",
+            "content": "Piglins are neutral mobs that inhabit the Nether. They trade with players using gold and attack when provoked.",
+            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Piglin_Attacking_with_melee_weapon.png",
+            "health": 16,
+            "version": "1.16",
+            "dimension": 2,
+            "nature": 2
+        }
+    },
+    {
+        "model": "content.article",
+        "pk": 11,
+        "fields": {
+            "title": "Blaze",
+            "content": "Blazes are hostile flying mobs found in Nether fortresses. They shoot fireballs and drop blaze rods used for potion making.",
+            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Blaze_JE2.png",
+            "health": 20,
+            "version": "1.0",
+            "dimension": 2,
+            "nature": 3
+        }
+    }
+]
