@@ -54,7 +54,7 @@
         "fields": {
             "title": "Chicken",
             "content": "A Minecraft chicken is a small, passive mob that roams the Overworld. It drops feathers, raw chicken, and eggs, which can be used for crafting and farming. Chickens can be bred with seeds and will follow players holding them. They also have a unique ability to glide slowly when falling, making them immune to fall damage. Often found wandering in grassy biomes, chickens are a great early-game source of food and materials! ",
-            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Chicken_JE2_BE2.png",
+            "img_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2c/Chicken_JE2_BE2.png/revision/latest?cb=20240729214013",
             "health": 4,
             "version": "1.0",
             "dimension": 1,
@@ -68,7 +68,7 @@
         "fields": {
             "title": "Allay",
             "content": "The Allay is a passive flying mob that helps players by collecting and delivering items similar to what it holds. Found in pillager outposts and woodland mansions, it can be freed and will follow players who give it an item.",
-            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Allay_JE1_BE1.png",
+            "img_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a4/Allay_JE1_BE1.png/revision/latest?cb=20230325132356",
             "health": 20,
             "version": "1.19",
             "dimension": 1,
@@ -81,7 +81,7 @@
         "fields": {
             "title": "Bee",
             "content": "Bees are passive flying mobs that pollinate flowers and produce honey. Found in beehives and nests, they play an essential role in crop growth and honey farming.",
-            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Bee_with_nectar.png",
+            "img_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/54/Bee_with_nectar.png/revision/latest?cb=20200317175424",
             "health": 10,
             "version": "1.15",
             "dimension": 1,
@@ -94,7 +94,7 @@
         "fields": {
             "title": "Panda",
             "content": "Pandas are neutral mobs found in bamboo jungles. They have various personalities affecting their behavior and can be bred using bamboo.",
-            "img_url": "https://minecraft.fandom.com/wiki/Panda?file=Aggressive_Panda_JE1_BE2.png",
+            "img_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dd/Aggressive_Panda_JE1_BE2.png/revision/latest?cb=20200514015107",
             "health": 20,
             "version": "1.14",
             "dimension": 1,
@@ -107,7 +107,7 @@
         "fields": {
             "title": "Rabbit",
             "content": "Rabbits are small passive mobs found in grassy and snowy biomes. They can be bred with carrots and drop rabbit hides and meat.",
-            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Black_%26_White_Rabbit_JE3_BE2.png",
+            "img_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2f/Black_%26_White_Rabbit_JE3_BE2.png/revision/latest?cb=20190809190336",
             "health": 3,
             "version": "1.8",
             "dimension": 1,
@@ -120,7 +120,7 @@
         "fields": {
             "title": "Guardian",
             "content": "Guardians are hostile underwater mobs that protect ocean monuments. They attack using lasers and drop prismarine shards.",
-            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Guardian_JE1_BE1.png",
+            "img_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2d/Guardian_JE1_BE1.png/revision/latest/scale-to-width-down/1000?cb=20250311205844",
             "health": 30,
             "version": "1.8",
             "dimension": 1,
@@ -133,7 +133,7 @@
         "fields": {
             "title": "Ender Dragon",
             "content": "The Ender Dragon is the final boss in Minecraft, found in the End dimension. It has a massive health pool and must be defeated to access the End Gateway.",
-            "img_url":"https://minecraft.fandom.com/wiki/Category:Mob_images?file=Ender_Dragon.png",
+            "img_url":"https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5a/Ender_Dragon.png/revision/latest/scale-to-width-down/1000?cb=20240729214327",
             "health": 200,
             "version": "1.0",
             "dimension": 3,
@@ -146,7 +146,7 @@
         "fields": {
             "title": "Enderman",
             "content": "Endermen are neutral mobs that teleport and become hostile if looked at. They spawn in all dimensions and drop ender pearls.",
-            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Enderman.png",
+            "img_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/28/Enderman.png/revision/latest/scale-to-width-down/1000?cb=20240729214332",
             "health": 40,
             "version": "1.0",
             "dimension": 3,
@@ -159,7 +159,7 @@
         "fields": {
             "title": "Endermite",
             "content": "Endermites are small hostile mobs that sometimes spawn when an ender pearl is used. They are disliked by Endermen.",
-            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Endermite.png",
+            "img_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/cf/Endermite.png/revision/latest?cb=20200527101129",
             "health": 8,
             "version": "1.8",
             "dimension": 3,
@@ -172,7 +172,7 @@
         "fields": {
             "title": "Piglin",
             "content": "Piglins are neutral mobs that inhabit the Nether. They trade with players using gold and attack when provoked.",
-            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Piglin_Attacking_with_melee_weapon.png",
+            "img_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/31/Piglin_celebrate_hunt_Revision_2.gif/revision/latest?cb=20200813091950",
             "health": 16,
             "version": "1.16",
             "dimension": 2,
@@ -185,7 +185,7 @@
         "fields": {
             "title": "Blaze",
             "content": "Blazes are hostile flying mobs found in Nether fortresses. They shoot fireballs and drop blaze rods used for potion making.",
-            "img_url": "https://minecraft.fandom.com/wiki/Category:Mob_images?file=Blaze_JE2.png",
+            "img_url": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5a/Blaze.gif/revision/latest?cb=20230214143150",
             "health": 20,
             "version": "1.0",
             "dimension": 2,
